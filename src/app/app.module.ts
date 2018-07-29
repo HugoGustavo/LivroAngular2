@@ -5,11 +5,17 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ListaPessoaComponent } from './lista-pessoa/lista-pessoa.component';
 import { AlertaService } from './alerta.service';
+import { InterpolationBindingComponent } from './interpolation-binding/interpolation-binding.component';
+import { PropertyBindingComponent } from './property-binding/property-binding.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListaPessoaComponent
+    ListaPessoaComponent,
+    InterpolationBindingComponent,
+    PropertyBindingComponent,
+    TwoWayBindingComponent
   ],
   imports: [
     BrowserModule,
